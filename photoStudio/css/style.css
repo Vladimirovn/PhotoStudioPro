@@ -1,0 +1,220 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+h2{
+	text-align: center;
+	font-family: sans-serif;
+	margin-bottom: 20px;
+}
+p{
+	font-family: sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.header {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../imges/studio.jpg);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+
+}
+.header__logo {
+	display: flex
+	justify-content: center;
+	margin: auto;
+}
+.header__logo h1{
+	font-family: sans-serif;
+	font-size: 50px;
+	/*padding-left: 30px;*/
+}
+.heder__menu{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	width: 100%;
+}
+.heder__menu a{
+	justify-self: center;
+	padding-left: 40px;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+	height: 100px;
+	font-family: sans-serif;
+}
+.iconBurger {
+	display: none;
+	font-weight: bold;
+}
+.heder__button{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	background-color: #fcac45;
+	padding-top: 10px;
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 10px;
+}
+
+
+.main {
+	display: flex;
+	flex-direction: column;
+	background: #ebeae5;
+}
+.main div {
+	padding: 10px;
+	/*border: 1px solid;*/
+}
+
+
+.main__services {
+
+}
+/* Слайдер */
+.slick-slider{
+	min-width: 0;
+}
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+/* Слайд */
+.slick-slide{}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 30px;
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+	left: 0;
+	background: url(../imges/back.svg) 0 0 / 100% no-repeat;
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+	right: 0;
+	background: url(../imges/next.svg) 0 0 / 100% no-repeat;
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{
+	opacity: 0.2;
+}
+/* Точки (булиты) */
+.slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slick-dots li{
+	list-style: none;
+	margin: 0px 10px;
+}
+.slick-dots button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color: #000;
+	border-radius: 50%;
+}
+/* Активная точка */
+.slick-dots li.slick-active button{
+	background-color: transparent;
+	border: 1px solid #000;
+}
+/* Элемент точки */
+.services__slider {
+	position: relative;
+	padding: 0px 60px;
+}
+.slider__item {
+	padding: 0px 15px;
+}
+.slider__item img{
+	width: 100%;
+}
+
+
+.main__gallery {
+	display: flex;
+	flex-direction: column;
+}
+.gallery__presintation {
+	display: flex;
+	flex-direction: column;
+}
+.line1 {
+	margin: auto;
+}
+.line2 {
+	margin: auto;
+}
+.line3 {
+	margin: auto;
+}
+
+
+.main__about {
+	display: flex;
+	flex-direction: column;
+}
+.about__infomation {
+	weight: 100%;
+	font-family: sans-serif;
+}
+.letter {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+
+.main__contacts {}
+.contacts__map {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.contacts__adress p{
+	font-size: 30px;
+}
+.contacts__mail {}
+.contacts__phonenumber {}
+
+
+.footer__rights {}
+
+body{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
